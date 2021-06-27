@@ -83,7 +83,7 @@ a:hover{
 
 }
 
-@media(max-width:749px){
+@media(max-width:860px){
   .grid {
     grid-template-columns: 425px 1fr;
     min-width: 150px;
