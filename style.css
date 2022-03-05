@@ -1,0 +1,489 @@
+.sh1{
+  position: absolute;
+  margin-top:19%;
+  margin-left: 6%;
+}
+
+.sh2{
+  position: absolute;
+  margin-top:19%;
+  margin-left: 6%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.sh:hover .sh2{
+  opacity: 1;
+}
+
+.co1{
+  position: absolute;
+  margin-top:10%;
+  margin-left:19%;
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.co2{
+  position: absolute;
+  margin-top:10%;
+  margin-left:19%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.co:hover .co2{
+  opacity: 1;
+}
+
+.co:hover .co1{
+  opacity: 0;
+}
+
+.tw1{
+  position: absolute;
+  margin-top:5%;
+  margin-left:43%;
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.tw2{
+  position: absolute;
+  margin-top:5%;
+  margin-left:43%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.tw:hover .tw2{
+  opacity: 1;
+}
+
+.tw:hover .tw1{
+  opacity: 0;
+}
+
+.cr1{
+  position: absolute;
+  margin-top:11%;
+  margin-left: 69%;
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.cr2{
+  position: absolute;
+  margin-top:11%;
+  margin-left:69%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.cr:hover .cr2{
+  opacity: 1;
+}
+
+.cr:hover .cr1{
+  opacity: 0;
+}
+
+.lion1{
+  position: absolute;
+  margin-top:22%;
+  margin-left: 82%;
+}
+
+.lion2{
+  position: absolute;
+  margin-top:22%;
+  margin-left: 82%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.lion:hover .lion2{
+  opacity: 1;
+}
+
+
+.vi1{
+  position: absolute;
+  margin-top:33%;
+  margin-left:5%;
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.vi2{
+  position: absolute;
+  margin-top:33%;
+  margin-left:5%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.vi:hover .vi2{
+  opacity: 1;
+}
+
+.vi:hover .vi1{
+  opacity: 0;
+}
+
+.li1{
+  position: absolute;
+  margin-top:25%;
+  margin-left:21%;
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.li2{
+  position: absolute;
+  margin-top:25%;
+  margin-left:21%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.li:hover .li2{
+  opacity: 1;
+}
+
+.li:hover .li1{
+  opacity: 0;
+}
+
+.sc1{
+  position: absolute;
+  margin-top:19%;
+  margin-left: 36%;
+}
+
+.sc2{
+  position: absolute;
+  margin-top:19%;
+  margin-left: 36%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.sc:hover .sc2{
+  opacity: 1;
+}
+
+.bo1{
+  position: absolute;
+  margin-top:19%;
+  margin-left:53%;
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.bo2{
+  position: absolute;
+  margin-top:19%;
+  margin-left:53%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.bo:hover .bo2{
+  opacity: 1;
+}
+
+.bo:hover .bo1{
+  opacity: 0;
+}
+
+.go1{
+  position: absolute;
+  margin-top:29%;
+  margin-left: 67%;
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.go2{
+  position: absolute;
+  margin-top:29%;
+  margin-left:67%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.go:hover .go2{
+  opacity: 1;
+}
+
+.go:hover .go1{
+  opacity: 0;
+}
+
+.mu1{
+  position: absolute;
+  margin-top:34%;
+  margin-left: 86%;
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.mu2{
+  position: absolute;
+  margin-top:34%;
+  margin-left:86%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.mu:hover .mu2{
+  opacity: 1;
+}
+
+.mu:hover .mu1{
+  opacity: 0;
+}
+
+.fi1{
+  position: absolute;
+  margin-top:33%;
+  margin-left:43%;
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.fi2{
+  position: absolute;
+  margin-top:33%;
+  margin-left:43%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.fi:hover .fi2{
+  opacity: 1;
+}
+
+.fi:hover .fi1{
+  opacity: 0;
+}
+
+
+.bg{
+  overflow: hidden;
+  position: relative;
+  margin: 0px;
+}
+
+video{
+  width: 100%;
+  height: 100%;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  border-image-width: 0px;
+  overflow: hidden;
+}
+
+
+
+/*원래배경*/
+
+lb-loader,.lightbox{
+  text-align:center;
+  line-height:0;
+  position:absolute;
+  left:0;
+}
+
+body.lb-disable-scrolling{
+  overflow:hidden;
+}
+
+/*레이어 뜰때 배경 어케되는지?*/
+.lightboxOverlay{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:9999;
+  background-color:#000;
+  filter:alpha(Opacity=80);
+  opacity:0.5;
+  display:none;
+}
+
+.lightbox{
+  width:100%;
+  z-index:10000;
+  outline:0;
+}
+
+.lightbox .lb-image{
+  display:block;
+  height:auto;
+  max-width:inherit;
+  max-height:none;
+  border-radius:0px;
+  border:0px;
+}
+
+.lightbox a img{
+  border:none
+}
+
+.lb-outerContainer{
+  position:relative;
+  width:250px;
+  height:250px;
+  margin:0
+  auto;border-radius:4px;
+  }
+
+.lb-outerContainer:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.lb-loader{
+  top:43%;
+  height:25%;
+  width:100%;
+}
+
+.lb-cancel{
+  display:block;
+  width:32px;
+  height:32px;
+  margin:0 auto;
+  background:url(../images/loading.gif) no-repeat;
+  }
+
+.lb-nav{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:10;
+}
+
+.lb-container>.nav{
+  left:0;
+}
+
+.lb-nav a{
+  outline:0;
+  background-image:url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+}
+
+
+.lb-next,.lb-prev{
+  height:100%;
+  cursor:pointer;
+  display:block;
+}
+
+.lb-nav a.lb-prev{
+  width:34%;
+  left:0;
+  float:left;
+  background:url(../images/prev.png)left 48% no-repeat;
+  filter:alpha(Opacity=0);
+  opacity:0;
+  -webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s;
+}
+
+.lb-nav a.lb-prev:hover{
+  filter:alpha(Opacity=100);
+  opacity:0;
+}
+
+.lb-nav a.lb-next{
+  width:64%;
+  right:0;
+  float:right;
+  background:url(../images/next.png) right 48% no-repeat;
+  filter:alpha(Opacity=0);
+  opacity:0;
+  -webkit-transition:opacity .6s;
+  -moz-transition:opacity .6s;
+  -o-transition:opacity .6s;
+  transition:opacity .6s;
+}
+
+.lb-nav a.lb-next:hover{
+  filter:alpha(Opacity=100);
+  opacity:0;
+}
+
+
+.lb-dataContainer{
+  margin:0 auto;
+  padding-top:5px;
+  width:100%;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+}
+
+.lb-dataContainer:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.lb-data{
+  padding:0 4px;
+  color:#ccc;
+  opacity: 0;
+}
+
+.lb-data .lb-details{
+  width:85%;
+  float:left;
+  text-align:left;
+  line-height:1.1em;
+}
+
+.lb-data .lb-caption{
+  font-size:13px;
+  font-weight:700;l
+  ine-height:1em;
+}
+
+.lb-data .lb-caption a{
+  color:#4ae;
+}
+
+.lb-data .lb-number{
+  display:block;
+  clear:left;
+  padding-bottom:1em;
+  font-size:12px;
+  color:#999;
+}
+
+
+.lb-data .lb-close{
+  display:block;
+  float:right;
+  width:30px;
+  height:30px;
+  background:url(../images/close.png)t op right no-repeat;
+  text-align:right;
+  outline:0;
+  filter:alpha(Opacity=70);
+  opacity:.7;
+  -webkit-transition:opacity .2s;
+  -moz-transition:opacity .2s;
+  -o-transition:opacity .2s;
+  transition:opacity .2s;
+  }
+
+  .lb-data .lb-close:hover{
+    cursor:pointer;
+    filter:alpha(Opacity=100);
+    opacity:1;
+  }
